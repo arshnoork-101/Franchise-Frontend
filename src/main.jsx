@@ -1,10 +1,15 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
+import App from './App'
 import './index.css'
-import App from './App.jsx'
+
+import ApplicationForm from './ApplicationForm'
+import ApplicantsTable from './ApplicantsTable'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
     <App />
-  </StrictMode>,
+    {/* <ApplicationForm></ApplicationForm> */}
+    {/* <ApplicantsTable></ApplicantsTable> */}
+  </StrictMode>
 )
